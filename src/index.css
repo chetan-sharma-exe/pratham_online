@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+}
