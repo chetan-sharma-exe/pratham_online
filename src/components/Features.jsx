@@ -8,10 +8,10 @@ const Features = () => {
       <main className="flex flex-col gap-10 items-center bg-[rgba(8,16,84,0.9)] pt-20 pb-10 sm:pb-0">
         <ImageScroller
           images={[
-            { id: 1, src: "../../public/ubanner3.jpeg", alt: "Image 1" },
+            { id: 1, src: "../../ubanner3.jpeg", alt: "Image 1" },
             {
               id: 2,
-              src: "../../public/bannerselectionipm1.jpg",
+              src: "../../bannerselectionipm1.jpg",
               alt: "Image 2",
             },
             { id: 3, src: "../../b12.jpg", alt: "Image 3" },

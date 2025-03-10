@@ -31,11 +31,7 @@ const Navbar = () => {
       </div>
       {/* Navbar */}
       <nav className="bg-white flex sm:gap-10 h-16 items-center justify-around sm:justify-center border-2 font-bold text-[#081054] z-101">
-        <img
-          className="h-12"
-          src="../../public/pratham.png"
-          alt="Pratham logo"
-        />
+        <img className="h-12" src="../../pratham.png" alt="Pratham logo" />
         <a className="hidden sm:block">ABOUT</a>
         <a className="hidden sm:block">PREP MODULES</a>
         <a className="hidden sm:block">COURSES</a>

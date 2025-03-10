@@ -12,10 +12,10 @@ function App() {
       <div className="hidden sm:block">
         <ImageScroller
           images={[
-            { id: 1, src: "../../public/ubanner3.jpeg", alt: "Image 1" },
+            { id: 1, src: "../../ubanner3.jpeg", alt: "Image 1" },
             {
               id: 2,
-              src: "../../public/bannerselectionipm1.jpg",
+              src: "../../bannerselectionipm1.jpg",
               alt: "Image 2",
             },
           ]}
@@ -25,13 +25,13 @@ function App() {
       <OptionsFor />
       <ImageScroller
         images={[
-          { id: 1, src: "../../public/ubanner3.jpeg", alt: "Image 1" },
+          { id: 1, src: "../../ubanner3.jpeg", alt: "Image 1" },
           {
             id: 2,
-            src: "../../public/bannerselectionipm1.jpg",
+            src: "../../bannerselectionipm1.jpg",
             alt: "Image 2",
           },
-          { id: 3, src: "../../public/b4.jpg", alt: "Image 3" },
+          { id: 3, src: "../../b4.jpg", alt: "Image 3" },
         ]}
       />
     </div>
